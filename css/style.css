@@ -1,0 +1,160 @@
+.content-box {
+	width: 600px;
+	height: 600px;
+	border: 1px solid lemonchiffon;
+	margin: 0 auto;
+}
+.user-message{
+	padding:50px 0 0 50px;
+	box-sizing: border-box;
+}
+.user-message img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+
+.pl-box {
+	width: 100%;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	border: 1px solid skyblue;
+	padding-left: 10px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+dfn {
+	display: inline-block;
+	background: url(../img/sprit-icon.png) no-repeat;
+	vertical-align: middle;
+}
+
+.liulanliang {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.liulanliang-number {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+}
+
+
+
+.dianzan-num {
+	display: inline-block;
+	margin: 0 15px 0 5px;
+}
+.dianzan-old {
+	width: 18px;
+	height: 19px;
+	background-position: -461px -261px;
+	margin: -5px 0 0 15px;
+	cursor: pointer;
+}
+
+.dianzan-new {
+	width: 18px;
+	height: 19px;
+	background-position: -461px -287px;
+	margin: -5px 0 0 15px;
+	cursor: pointer;
+}
+
+.pinglun-old {
+	width: 19px;
+	height: 19px;
+	background-position: -460px -158px;
+	cursor: pointer;
+}
+
+.pinglun-new {
+	width: 19px;
+	height: 19px;
+	background-position: -460px -184px;
+	cursor: pointer;
+}
+.pinglun-default{
+
+}
+
+.pinglun-text-box{
+	width: 600px;
+	font-size: 12px;
+	padding: 10px;
+	box-sizing: border-box;
+	/*background-color: violet;*/
+}
+
+
+/*滚动条样式*/
+
+.pinglun-text::-webkit-scrollbar {
+	/*滚动条整体样式*/
+	width: 3px;
+	/*高宽分别对应横竖滚动条的尺寸*/
+/*	height: 4px;*/
+}
+
+.pinglun-text::-webkit-scrollbar-thumb {
+	/*滚动条里面小方块*/
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.pinglun-text::-webkit-scrollbar-track {
+	/*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 0;
+	background: rgba(0, 0, 0, 0.1);
+}
+.pinglun-text {
+	width: 500px;
+	border-radius: 3px;
+	float: left;
+	
+}
+
+.send-mess{
+	display: inline-block;
+	width: 45px;
+	height: 30px;
+	float: left;
+	color: #FFFFFF;
+	background-color: #b3a57d;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 30px;
+	font-style: normal;
+	margin: 5px 0 0 10px;
+	cursor: pointer;
+}
+#userTime{
+	margin: 5px 0 0 10px;
+}
+.review-content-box{
+	font-size: 12px;
+}
+.user-review-content{
+	margin-bottom: 5px;
+}
+.pinglun-but-box{
+	font-size: 12px;
+	color: #FFFFFF;
+	display: none;
+	margin-top: 10px;
+	position: relative;
+}
+.prompt-mess{
+	position: absolute;
+	top: 10px;
+	right: 120px;
+	color: hotpink;
+	display: none;
+}
